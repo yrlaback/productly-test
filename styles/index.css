@@ -1,0 +1,14 @@
+.navigation {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navigation__logo {
+    left: 13.3%;
+    right: 76.48%;
+    top: 32.05%;
+    bottom: 30.8%;
+}
+    
