@@ -1,6 +1,44 @@
 .body {
-    position: relative;
     width: 1400px;
     height: 3843px;
-    background: #FFFFFF;
+}
+
+.navigation {
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.navigation-info {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    color: #2F281E;
+}
+
+.btn-in {
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #173A56;
+}
+
+.btn-up {
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    background-color: #FF9900;
 }
