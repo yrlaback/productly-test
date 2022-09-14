@@ -1,8 +1,6 @@
 .body {
     width: 1400px;
     height: 3843px;
-    display: flex;
-    justify-content: center;
 }
 
 .navigation {
@@ -60,11 +58,12 @@
     width: 1400px;
     height: 496px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .header-child {
-    flex-direction: column;
-    justify-content: center;
+
 }
 
 .header-title {
