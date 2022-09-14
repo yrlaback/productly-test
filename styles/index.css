@@ -4,6 +4,8 @@
 }
 
 .navigation {
+    width: 1400px;
+    height: 78px;
     display:flex;
     justify-content: center;
     align-items: baseline;
@@ -21,6 +23,10 @@
 }
 
 .btn-in {
+    left: 74%;
+    right: 19%;
+    top: 19%;
+    bottom: 22%;
     border: 1px solid #BCD0E5;
     border-radius: 4px;
     font-family: 'Poppins';
@@ -33,6 +39,10 @@
 }
 
 .btn-up {
+    left: 82%;
+    right: 11%;
+    top: 20%;
+    bottom: 22%;
     border-radius: 4px;
     font-family: 'Poppins';
     font-style: normal;
@@ -41,4 +51,105 @@
     line-height: 24px;
     /* identical to box height */
     background-color: #FF9900;
+    color: #FFFFFF;
+}
+
+.header {
+    width: 1126px;
+    height: 496px;
+    display: flex;
+}
+.header-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    /* or 123% */
+    color: #2F281E;
+    }
+
+.header-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #544837;
+}
+
+.get-started {
+    width: 175px;
+    height: 53px;
+    left: 145px;
+    top: 489px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+    background-color: #FF9900;
+    border-radius: 4px;
+}
+
+.video {
+    height: 24px;
+    left: 16.15%;
+    right: 0%;
+    top: calc(50% - 24px/2 + 0.5px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #FF9900;
+    border: none;    
+    background-color: #FFFFFF;
+    left: 10.87%;
+    }
+
+.feature {
+    width: 2211px;
+    height: 543px;
+    display: flex;
+}
+
+.feature-heading {
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+}
+
+.card {
+    
+}
+
+.card-header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #2F281E;
+}
+
+.card-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;   
 }
