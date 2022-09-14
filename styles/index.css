@@ -235,6 +235,44 @@
     color: #544837;
 }
 
+.marketers {
+    width: 1400px;
+    height: 609px;
+    display: flex;
+}
+
+.marketers-big-header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    color: #2F281E;
+}
+
+.marketers-header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    color: #2F281E;
+    
+}
+
+.marketers-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #544837;
+
+}
+
 .footer {
     width: 1400px;
     height: 308px;
